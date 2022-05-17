@@ -6,7 +6,7 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
-        
+
         // scroll-up button show/hide script
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["driven", "passionate", "organized"],
+        strings: ["driven", "passionate", "well-organized"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
